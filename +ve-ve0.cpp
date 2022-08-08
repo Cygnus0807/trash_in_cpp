@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+
+    if (n > 0)
+    {
+        cout << n << " is positive num";
+    }
+    else
+    {
+        if (n < 0)
+        {
+            cout << n << " is negative num ";
+        }
+        else
+        {
+            cout << n << " is 0 ";
+        }
+    }
+    return 0;
+}
